@@ -5,13 +5,18 @@ body {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    color: #333;
+    color: #2c3e50;
+    background-color: #f8f9fa;
 }
 
 header {
     text-align: center;
     padding: 2rem 0;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #e9ecef;
+    background: linear-gradient(135deg, #6c5ce7, #a8a4e6);
+    color: white;
+    margin: -20px -20px 0 -20px;
+    padding: 2rem 20px;
 }
 
 nav ul {
@@ -27,27 +32,33 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: white;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #007bff;
+    color: #ffd700;
 }
 
 main {
     padding: 2rem 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 2rem 0;
 }
 
 .blog-posts {
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .post-preview {
     margin-bottom: 3rem;
     padding-bottom: 2rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #e9ecef;
 }
 
 .post-preview:last-child {
@@ -59,16 +70,17 @@ main {
 }
 
 .post-preview h2 a {
-    color: #333;
+    color: #2c3e50;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .post-preview h2 a:hover {
-    color: #007bff;
+    color: #6c5ce7;
 }
 
 .post-meta {
-    color: #666;
+    color: #6c757d;
     font-size: 0.9rem;
     margin-bottom: 1rem;
 }
@@ -80,19 +92,28 @@ main {
 .read-more {
     display: inline-block;
     margin-top: 1rem;
-    color: #007bff;
+    color: #6c5ce7;
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: #f8f9fa;
 }
 
 .read-more:hover {
-    text-decoration: underline;
+    background-color: #6c5ce7;
+    color: white;
+    text-decoration: none;
 }
 
 footer {
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
-    border-top: 1px solid #eee;
-    color: #666;
+    border-top: 1px solid #e9ecef;
+    color: #6c757d;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
 } 
