@@ -3,24 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>My Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
-        <p>A modern and clean website template</p>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section>
-            <h2>About</h2>
-            <p>This is a simple website template that you can customize to your needs. Feel free to modify the content and styling to match your preferences.</p>
+        <section class="blog-posts">
+            <article class="post-preview">
+                <h2><a href="posts/first-post.html">Getting Started with Web Development</a></h2>
+                <div class="post-meta">
+                    <span class="date">March 15, 2024</span>
+                    <span class="category">Web Development</span>
+                </div>
+                <p>Learn the basics of web development and how to get started on your journey...</p>
+                <a href="posts/first-post.html" class="read-more">Read More</a>
+            </article>
+
+            <article class="post-preview">
+                <h2><a href="posts/second-post.html">The Art of CSS</a></h2>
+                <div class="post-meta">
+                    <span class="date">March 14, 2024</span>
+                    <span class="category">CSS</span>
+                </div>
+                <p>Discover the power of CSS and how to create beautiful, responsive designs...</p>
+                <a href="posts/second-post.html" class="read-more">Read More</a>
+            </article>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
     </footer>
 </body>
 </html> 
