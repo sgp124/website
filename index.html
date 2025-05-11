@@ -3,162 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Vibe Only - Sustainability Blog | Green Living and Urban Sustainability</title>
+    <title>Green Vibe Only - Sustainable Living Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="Green Vibe Only - Your guide to zero-waste living, sustainable home & garden, ethical fashion, plant-based food, renewable energy, eco-friendly travel, and DIY upcycling.">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Green Vibe Only - Your source for sustainable living practices. Explore zero-waste living, sustainable home & garden, ethical fashion, plant-based food, renewable energy, eco-friendly travel, and DIY upcycling.">
     <meta name="keywords" content="green vibe only, sustainability, zero waste living, sustainable home, sustainable garden, ethical fashion, sustainable fashion, plant based food, renewable energy, eco friendly travel, diy upcycling, green living, urban sustainability, eco-friendly, climate change, sustainable development">
     <meta name="author" content="Green Vibe Only">
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph Meta Tags for Social Media -->
-    <meta property="og:title" content="Green Vibe Only - Sustainability Blog">
-    <meta property="og:description" content="Your source for sustainable living practices. Explore zero-waste living, sustainable home & garden, ethical fashion, plant-based food, renewable energy, eco-friendly travel, and DIY upcycling.">
+    <meta property="og:title" content="Green Vibe Only - Sustainable Living Blog">
+    <meta property="og:description" content="Your guide to zero-waste living, sustainable home & garden, ethical fashion, plant-based food, renewable energy, eco-friendly travel, and DIY upcycling.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9">
     <meta property="og:url" content="https://greenvibeonly.com">
     <meta property="og:type" content="website">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Green Vibe Only - Sustainability Blog">
-    <meta name="twitter:description" content="Your source for sustainable living practices. Explore zero-waste living, sustainable home & garden, ethical fashion, plant-based food, renewable energy, eco-friendly travel, and DIY upcycling.">
+    <meta name="twitter:title" content="Green Vibe Only - Sustainable Living Blog">
+    <meta name="twitter:description" content="Your guide to zero-waste living, sustainable home & garden, ethical fashion, plant-based food, renewable energy, eco-friendly travel, and DIY upcycling.">
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://greenvibeonly.com">
-    
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .category-nav {
-            background-color: #2c3e50;
-            padding: 15px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-        }
-        .category-nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            justify-content: center;
-        }
-        .category-nav a {
-            color: white;
-            text-decoration: none;
-            padding: 8px 15px;
-            border-radius: 20px;
-            background-color: #3498db;
-            transition: background-color 0.3s;
-        }
-        .category-nav a:hover {
-            background-color: #2980b9;
-        }
-        .blog-container {
-            background-color: white;
-            padding: 30px;
-            margin-bottom: 40px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #34495e;
-            margin-top: 30px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            margin: 20px 0;
-        }
-        ul, ol {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        .tags {
-            margin-top: 20px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-        }
-        .tag {
-            display: inline-block;
-            background-color: #e0e0e0;
-            padding: 5px 10px;
-            border-radius: 15px;
-            margin-right: 10px;
-            margin-bottom: 10px;
-            font-size: 0.9em;
-        }
-        .date {
-            color: #666;
-            font-style: italic;
-        }
-    </style>
 </head>
-<body>
-    <nav class="category-nav">
-        <ul>
-            <li><a href="/categories/zero-waste-living">Zero-Waste Living</a></li>
-            <li><a href="/categories/sustainable-home-garden">Sustainable Home & Garden</a></li>
-            <li><a href="/categories/ethical-sustainable-fashion">Ethical & Sustainable Fashion</a></li>
-            <li><a href="/categories/plant-based-sustainable-food">Plant-Based & Sustainable Food</a></li>
-            <li><a href="/categories/renewable-energy-solutions">Renewable Energy Solutions</a></li>
-            <li><a href="/categories/eco-friendly-travel">Eco-Friendly Travel</a></li>
-            <li><a href="/categories/diy-upcycling">DIY & Upcycling</a></li>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Navigation Bar -->
+    <nav class="flex items-center justify-between px-6 py-4 bg-white shadow-sm rounded-b-2xl">
+        <div class="flex items-center space-x-3">
+            <img src="/logo.svg" alt="Green Vibe Only Logo" class="h-8 w-8 rounded-full bg-green-200" />
+            <span class="font-bold text-xl text-green-700">Green Vibe Only</span>
+        </div>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="#zero-waste" class="text-gray-700 hover:text-green-600 font-medium">Zero-Waste Living</a></li>
+            <li><a href="#home-garden" class="text-gray-700 hover:text-green-600 font-medium">Sustainable Home & Garden</a></li>
+            <li><a href="#fashion" class="text-gray-700 hover:text-green-600 font-medium">Ethical & Sustainable Fashion</a></li>
+            <li><a href="#food" class="text-gray-700 hover:text-green-600 font-medium">Plant-Based & Sustainable Food</a></li>
+            <li><a href="#energy" class="text-gray-700 hover:text-green-600 font-medium">Renewable Energy Solutions</a></li>
+            <li><a href="#travel" class="text-gray-700 hover:text-green-600 font-medium">Eco-Friendly Travel</a></li>
+            <li><a href="#diy" class="text-gray-700 hover:text-green-600 font-medium">DIY & Upcycling</a></li>
         </ul>
+        <div class="flex items-center space-x-2">
+            <a href="#signin" class="px-4 py-1 rounded-full text-green-700 font-semibold hover:bg-green-100">Sign In</a>
+            <a href="#signup" class="px-4 py-1 rounded-full bg-green-600 text-white font-semibold hover:bg-green-700">Sign Up</a>
+        </div>
     </nav>
 
-    <div class="blog-container">
-        <h1>The Path to a Sustainable Future: Small Steps, Big Impact</h1>
-        <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sustainability Banner">
-        
-        <h2>Introduction</h2>
-        <p>In today's world, sustainability has become more than just a buzzword—it's a crucial necessity for our planet's future. As we face unprecedented environmental challenges, understanding and implementing sustainable practices has never been more important. This blog post explores the key aspects of sustainability and how each of us can contribute to a greener future.</p>
-
-        <!-- Rest of the first blog post content -->
-        
-        <div class="tags">
-            <span class="tag">Sustainability</span>
-            <span class="tag">Environment</span>
-            <span class="tag">Green Living</span>
-            <span class="tag">Climate Change</span>
-            <span class="tag">Eco-friendly</span>
+    <!-- Hero Section -->
+    <section class="relative flex flex-col items-center justify-center text-center py-12 md:py-20 bg-gradient-to-br from-green-100 via-yellow-50 to-pink-100 rounded-3xl mx-2 mt-6 shadow-lg">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80" alt="Sustainable Food" class="absolute inset-0 w-full h-full object-cover opacity-30 rounded-3xl pointer-events-none" />
+        <div class="relative z-10 max-w-2xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">Welcome to Green Vibe Only</h1>
+            <p class="text-lg md:text-2xl text-gray-700 mb-6">Your guide to living sustainably—discover tips, stories, and inspiration for a greener, kinder world.</p>
+            <div class="flex flex-wrap justify-center gap-3 mt-4">
+                <span class="bg-green-200 text-green-900 px-3 py-1 rounded-full text-sm font-semibold">Zero-Waste</span>
+                <span class="bg-yellow-200 text-yellow-900 px-3 py-1 rounded-full text-sm font-semibold">Home & Garden</span>
+                <span class="bg-pink-200 text-pink-900 px-3 py-1 rounded-full text-sm font-semibold">Fashion</span>
+                <span class="bg-blue-200 text-blue-900 px-3 py-1 rounded-full text-sm font-semibold">Plant-Based</span>
+                <span class="bg-purple-200 text-purple-900 px-3 py-1 rounded-full text-sm font-semibold">Energy</span>
+                <span class="bg-teal-200 text-teal-900 px-3 py-1 rounded-full text-sm font-semibold">Travel</span>
+                <span class="bg-gray-200 text-gray-900 px-3 py-1 rounded-full text-sm font-semibold">DIY</span>
+            </div>
         </div>
-        <p class="date">Published on: [Current Date]</p>
-    </div>
+    </section>
 
-    <div class="blog-container">
-        <h1>Building Green Cities: The Future of Urban Sustainability</h1>
-        <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Urban Sustainability">
-        
-        <h2>Introduction</h2>
-        <p>As our world becomes increasingly urbanized, the concept of sustainable cities has emerged as a critical solution to environmental challenges. With more than 55% of the global population living in urban areas, creating sustainable cities is not just an option—it's a necessity for our planet's future.</p>
-
-        <!-- Rest of the second blog post content -->
-        
-        <div class="tags">
-            <span class="tag">Urban Sustainability</span>
-            <span class="tag">Green Cities</span>
-            <span class="tag">Smart Cities</span>
-            <span class="tag">Urban Planning</span>
-            <span class="tag">Sustainable Development</span>
+    <!-- Featured Posts Grid -->
+    <section class="max-w-6xl mx-auto px-2 py-12 grid gap-8 md:grid-cols-3 lg:grid-cols-4">
+        <!-- Example Post Card -->
+        <div class="col-span-2 md:col-span-2 lg:col-span-2 row-span-2 bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col justify-end relative min-h-[340px]">
+            <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=800&q=80" alt="Zero-Waste Living" class="absolute inset-0 w-full h-full object-cover opacity-70" />
+            <div class="relative z-10 p-6">
+                <span class="bg-green-200 text-green-900 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">Zero-Waste Living</span>
+                <h2 class="text-2xl font-bold text-white drop-shadow mb-2">How to Start a Zero-Waste Lifestyle</h2>
+                <p class="text-white drop-shadow mb-2">By Jane Doe • 2 days ago</p>
+            </div>
         </div>
-        <p class="date">Published on: [Current Date]</p>
-    </div>
+        <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col justify-end relative min-h-[160px]">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Home & Garden" class="absolute inset-0 w-full h-full object-cover opacity-70" />
+            <div class="relative z-10 p-4">
+                <span class="bg-yellow-200 text-yellow-900 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">Sustainable Home & Garden</span>
+                <h3 class="text-lg font-bold text-white drop-shadow mb-1">Eco-Friendly Gardening Tips</h3>
+                <p class="text-white drop-shadow text-xs">By John Smith • 1 week ago</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col justify-end relative min-h-[160px]">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80" alt="Fashion" class="absolute inset-0 w-full h-full object-cover opacity-70" />
+            <div class="relative z-10 p-4">
+                <span class="bg-pink-200 text-pink-900 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">Ethical & Sustainable Fashion</span>
+                <h3 class="text-lg font-bold text-white drop-shadow mb-1">Building a Capsule Wardrobe</h3>
+                <p class="text-white drop-shadow text-xs">By Emily Green • 3 days ago</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col justify-end relative min-h-[160px]">
+            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80" alt="Plant-Based Food" class="absolute inset-0 w-full h-full object-cover opacity-70" />
+            <div class="relative z-10 p-4">
+                <span class="bg-blue-200 text-blue-900 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">Plant-Based & Sustainable Food</span>
+                <h3 class="text-lg font-bold text-white drop-shadow mb-1">Delicious Plant-Based Recipes</h3>
+                <p class="text-white drop-shadow text-xs">By Alex Plant • 5 days ago</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col justify-end relative min-h-[160px]">
+            <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80" alt="Renewable Energy" class="absolute inset-0 w-full h-full object-cover opacity-70" />
+            <div class="relative z-10 p-4">
+                <span class="bg-purple-200 text-purple-900 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">Renewable Energy Solutions</span>
+                <h3 class="text-lg font-bold text-white drop-shadow mb-1">Solar Power for Homeowners</h3>
+                <p class="text-white drop-shadow text-xs">By Ray Sun • 1 week ago</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col justify-end relative min-h-[160px]">
+            <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=800&q=80" alt="Eco-Friendly Travel" class="absolute inset-0 w-full h-full object-cover opacity-70" />
+            <div class="relative z-10 p-4">
+                <span class="bg-teal-200 text-teal-900 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">Eco-Friendly Travel</span>
+                <h3 class="text-lg font-bold text-white drop-shadow mb-1">Sustainable Tourism Destinations</h3>
+                <p class="text-white drop-shadow text-xs">By Tara Traveler • 2 weeks ago</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col justify-end relative min-h-[160px]">
+            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80" alt="DIY & Upcycling" class="absolute inset-0 w-full h-full object-cover opacity-70" />
+            <div class="relative z-10 p-4">
+                <span class="bg-gray-200 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">DIY & Upcycling</span>
+                <h3 class="text-lg font-bold text-white drop-shadow mb-1">Creative Upcycling Projects</h3>
+                <p class="text-white drop-shadow text-xs">By Maker Mia • 4 days ago</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html> 
