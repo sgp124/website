@@ -6,6 +6,50 @@
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
+   <!-- Category Pages -->
+   <url>
+      <loc>https://greenvibeonly.com/categories/zero-waste-living</loc>
+      <lastmod>2024-03-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://greenvibeonly.com/categories/sustainable-home-garden</loc>
+      <lastmod>2024-03-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://greenvibeonly.com/categories/ethical-sustainable-fashion</loc>
+      <lastmod>2024-03-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://greenvibeonly.com/categories/plant-based-sustainable-food</loc>
+      <lastmod>2024-03-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://greenvibeonly.com/categories/renewable-energy-solutions</loc>
+      <lastmod>2024-03-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://greenvibeonly.com/categories/eco-friendly-travel</loc>
+      <lastmod>2024-03-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://greenvibeonly.com/categories/diy-upcycling</loc>
+      <lastmod>2024-03-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <!-- Blog Posts -->
    <url>
       <loc>https://greenvibeonly.com/sustainability-blog.html</loc>
       <lastmod>2024-03-15</lastmod>
